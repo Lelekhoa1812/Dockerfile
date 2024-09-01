@@ -1,0 +1,52 @@
+
+Trouble Shooting: Link CircleCI with Github Account for Setting up a CI Workflow
+Section 5, Lecture 32
+If you get the following exception whiling doing docker login  
+docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USER_ID -p $DOCKER_HUB_PWD
+flag needs an argument: -p
+See 'docker login --help'.
+ 
+docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USER_ID -p $DOCKER_HUB_PWD returned exit code 125
+ 
+Action failed: docker login -e $DOCKER_HUB_EMAIL -u $DOCKER_HUB_USER_ID -p $DOCKER_HUB_PWD
+It is EXPECTED that your build will FAIL at logging into Docker Hub step. This is because this build is against the latest master branch which includes publishing to Docker Hub. To fix it, we will inject the Docker Hub login credentials to CircleCI in the next lecture. There is no action needed from you, just follow along the next lecture.
+
+
+
+If your build failed at running docker compose run  and get the following exception:
+
+
+docker-compose run dockerapp python test.py
+ERROR: In file './docker-compose.yml' service 'version' doesn't have any configuration options. All top level keys in your docker-compose.yml must map to a dictionary of configuration options.
+ 
+docker-compose run dockerapp python test.py returned exit code 1
+This is a know issue. 
+
+https://github.com/docker/compose/issues/4349
+
+There are two ways to fix it up.
+
+Add sudo pip install --upgrade pip before running sudo pip install docker-compose  to ensure that you get the latest version of docker compose.
+Or you can replace sudo pip install docker-compose  with sudo pip install docker-compose==1.9.0  so that you will be using docker-compose 1.9.0 instead of an outdated version.
+ 
+Browse Q&A
+Continue
+
+
+   Show curriculum navigation Go to Dashboard
+Questions
+Search for a question:
+Search for a question
+3 questions in this lecture
+
+Ask a new question
+SN
+issue with the compose file
+i updated python packages and when i tried to run it ,shows the following error.please resolve.[image]
+Raveen Rachapudi
+How trouble shooting works
+I am facing the second issue mentioned in the trouble shooting tips. However, before following the solution I would really like to understand how upgrading the Docker-compose is going to solve the issue of build failure. I would basically like to understand what is happening behind the scenes here.
+Ali Katkar
+docker compose run problem still exists
+I changed the circle.yml according to instruction but circleci is building with first version. So I cannot build the project in circleci. How can i solve the problem? You can see the changed file here : https://github.com/akatkar/dockerapp/blob/master/circle.yml
+Question Details

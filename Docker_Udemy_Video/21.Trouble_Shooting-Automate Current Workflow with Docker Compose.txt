@@ -1,0 +1,13 @@
+Trouble Shooting: Automate Current Workflow with Docker Compose
+Section 3, Lecture 21
+In case you run into the following exception while trying to run docker compose up on Windows.
+
+ERROR: for dockerapp  Cannot create container for service dockerapp: Invalid bind mount spec "C:\\Users\\nidal\\dockerapp\\app:/app:rw": Invalid volume specification: 'C:\Users\nidal\dockerapp\app:/app:rw'
+�[31mERROR�[0m: Encountered errors while bringing up the project.
+
+
+This is a known issue for Windows Docker users and I have created a ticket tracking it.
+
+https://github.com/docker/compose/issues/4303
+
+The current walk around is to NOT use volumes  instruction in docker-compose.yml  file and keep the COPY  instruction in the Dockerfile  as it is .

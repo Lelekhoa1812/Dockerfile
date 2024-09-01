@@ -1,0 +1,5 @@
+Text Direction: Containerize a Hello World Web Application
+Section 3, Lecture 17
+Check out source code: 
+
+git clone -b v0.1 https://github.com/jleetutorial/dockerapp.git

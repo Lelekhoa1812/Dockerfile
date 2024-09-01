@@ -1,0 +1,169 @@
+Section: 1
+10 / 18
+Get Started with Docker Technologies
+1. Course Overview: Welcome to the Docker Technology World
+4:09
+2. Course Slides
+0:00
+ Course Slides.pdf
+3. Introduction to Virtualization Technologies
+8:35
+Quiz 1: Introduction to Virtualization Technologies
+0:00
+4. Docker Software's Client-Server Architecture
+1:36
+Quiz 2: Docker Software's Client-Server Architecture
+0:00
+5. Install Docker for Mac/Windows
+4:39
+Quiz 3: Install Docker for Mac/Windows
+0:00
+6. Install Docker Toolbox
+4:34
+Quiz 4: Install Docker Toolbox
+0:00
+7. Important Concepts of Docker Technology
+4:50
+Quiz 5: Important Concepts of Docker Technology
+0:00
+8. Run Our First Hello World Docker Container
+5:53
+Quiz 6: Run Our First Hello World Docker Container
+0:00
+9. Deep Dive into Docker Containers
+5:01
+Quiz 7: Deep Dive into Docker Containers
+0:00
+10. Docker Port Mapping and Docker Logs Command
+3:42
+Quiz 8: Docker Port Mapping
+0:00
+Section: 2
+5 / 10
+Working with Docker Images
+11. Docker Image Layers
+2:17
+Quiz 9: Docker Image Layers
+0:00
+12. Build Docker Images by using Docker Commit Command
+5:08
+Quiz 10: Build Docker Images by using Docker Commit Command
+0:00
+13. Build Docker Images by Writing Dockerfile
+7:22
+Quiz 11: Build Docker Images by Writing Dockerfile
+0:00
+14. Dockerfile In-depth
+8:03
+Quiz 12: Dockerfile In-depth
+0:00
+15. Push Docker Images to Docker Hub
+4:43
+Quiz 13: Push Docker Images to Docker Hub
+0:00
+Section: 3
+7 / 12
+Create Containerized Web Applications
+16. Containerize a Simple Hello World Web Application
+9:48
+ dockerapp.zip
+Quiz 14: Containerize a Simple Hello World Web Application
+0:00
+17. Text Direction: Containerize a Hello World Web Application
+0:00
+18. Implement a Simple Key-value Lookup Service
+8:26
+Quiz 15: Implement a Simple Key-value Lookup Service
+0:00
+19. Create Docker Container Links
+5:31
+Quiz 16: Create Docker Container Links
+0:00
+20. Automate Current Workflow with Docker Compose
+7:02
+21. Trouble Shooting: Automate Current Workflow with Docker Compose
+0:00
+Quiz 17: Automate Current Workflow with Docker Compose
+0:00
+22. Deep Dive into Docker Compose Workflow
+5:12
+Quiz 18: Deep Dive into Docker Compose Workflow
+0:00
+Section: 4
+5 / 5
+Docker Networking
+23. Introduction to Docker Networking
+2:02
+24. None Network
+2:59
+25. Bridge Network
+8:30
+26. Host Network and Overlay Network
+2:51
+27. Define Container Networks with Docker Compose
+3:31
+Section: 5
+3 / 11
+Create a Continuous Integration Pipeline
+28. Write and Run Unit Tests inside Containers
+3:55
+ dockerapp.zip
+Quiz 19: Write and Run Unit Tests inside Containers
+0:00
+29. Introduction to Continuous Integration
+6:54
+30. Text Direction: Introduction to Continuous Integration
+0:00
+Quiz 20: Introduction to Continuous Integration
+0:00
+31. Link CircleCI with Github Account for Setting up a CI Workflow
+6:03
+32. Trouble Shooting: Link CircleCI with Github Account for Setting up a CI Workflow
+0:00
+Quiz 21: Link CircleCI with Github Account for Setting up a CI Workflow
+0:00
+33. Push Docker Images To DockerHub from CircleCI
+8:14
+Quiz 22: Push Docker Images to Docker Hub
+0:00
+34. Trouble Shooting: Push Docker Images to Docker Hub
+0:00
+Section: 6
+3 / 14
+Deploy Docker Containers in Production
+35. Introduction to Running Docker Containers in Production
+7:47
+Quiz 23: Introduction to Running Docker Containers in Production
+0:00
+36. Register Digital Ocean Account for Deploying Containerized Applications
+3:15
+Quiz 24: Register Digital Ocean Account for Deploying Containerized Applications
+0:00
+37. Deploy Docker Application to the Cloud with Docker Machine
+5:44
+38. Text Direction: Deploy Docker Application to the Cloud with Docker Machine
+0:00
+Quiz 25: Deploy Docker Application to the Cloud with Docker Machine
+0:00
+39. Refactor Docker Compose File
+3:20
+40. Introduction to Docker Swarm and Service Discovery
+8:15
+41. Text Direction: Introduction to Docker Swarm and Service Discovery
+0:00
+Quiz 26: Introduction to Docker Swarm and Service Discovery
+0:00
+42. Deploy Docker Application to the Cloud with Docker Swarm
+7:47
+43. Text Direction: Deploy Docker Application to the Cloud with Docker Swarm
+0:00
+Quiz 27: Deploy Docker Application to the Cloud with Docker Swarm
+0:00
+Section: 7
+1 / 1
+Additional Learning Materials
+44. Get My Other Courses with a Discount
+0:00
+We're testing captions for this lecture
+Give your opinion
+Get My Other Courses with a Discount
